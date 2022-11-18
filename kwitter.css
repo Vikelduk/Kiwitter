@@ -6,16 +6,21 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33f153, #3ad925, #18c118, #1daa0a, #479400);
+background-image: linear-gradient(to right top, #33f189, #25d93d, #34c118, #6daa0a, #439400);
 }
 
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 75px;letter-spacing: 10px;margin-top: 80px;
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
-	width: 100px;margin-left: -15px;
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
 }
 
 .logo
@@ -32,6 +37,18 @@ background-image: linear-gradient(to right top, #33f153, #3ad925, #18c118, #1daa
 {
 	cursor: pointer;
 	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
 }
 
 .input_div_room_page

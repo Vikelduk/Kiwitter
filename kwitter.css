@@ -6,7 +6,7 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #33f189, #25d93d, #34c118, #6daa0a, #439400);
+background-image: linear-gradient(to right top, #49f133, #43d925, #34c118, #2faa0a, #549400);
 }
 
 .header
@@ -37,58 +37,4 @@ background-image: linear-gradient(to right top, #33f189, #25d93d, #34c118, #6daa
 {
 	cursor: pointer;
 	font-size: 20px;
-}
-
-
-#logout
-{
-	font-size: 20px; float: right;
-}
-
-
-#output
-{
-	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
-}
-
-.input_div_room_page
-{
-	width: 80%;
-}
-
-.input_div label
-{
-	color: white;font-size: 20px;
-}
-
-
-.input_div_message_page
-{
-	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
-}
-.input_div_message_page label
-{
-	color: black;
-}
-.input_div_message_page #msg
-{
-	width: 80%;
-}
-.input_div_message_page button
-{
-	margin-top: 15px;
-	width: 50%; 
-}
-.color_white
-{
-	color: white
-}
-
-.user_tick
-{
-	width:20px;
-}
-.message_h4
-{
-	padding-left:5px;color:grey;
 }
